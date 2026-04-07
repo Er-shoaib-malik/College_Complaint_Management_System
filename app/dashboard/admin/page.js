@@ -6,6 +6,7 @@ import Complaint from "@/models/Complaint";
 import User from "@/models/User";
 import StatCard from "@/components/ui/StatCard";
 import ComplaintCard from "@/components/complaints/ComplaintCard";
+import Category from "@/models/Category";
 
 export default async function AdminDashboard() {
   const authUser = await getAuthUser();
